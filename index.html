@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sainath Reddy K - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family:'poppins' sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(85, 85, 143);
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(31, 31, 159);
+            font-size: 1.2rem;
+        }
+        main hr{
+            border: 0;
+            background: #9cc7f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection >div{
+            width:30%;
+        }
+        .firstSection {
+            display: flex;
+            justify-content:space-around;
+            margin:10px 0;
+            align-items: center;
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background-color: #48777a;
+            color: white;
+            border: 2px;
+            border-radius: 5px;
+            font-size: 19px;
+        }
+        .rightSection img{
+            width: 400px;
+        }
+        .purple{
+            color: rgb(180, 128, 228);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(180, 128, 228);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height:80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 85px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+        footer{
+            background-color: #45516b;
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            list-style: none;
+            margin: 10px 0;
+        }
+        ul li a:hover{
+            color: rgb(65, 225, 193);
+            font-size: 1.2rem;
+        }
+        .footer >div{
+            width: 123px;
+            align-content: center;
+            text-align: center;
+        }
+        .footer-rights{
+            color: gray;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sainath Reddy Kummetha</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section Class="firstSection">
+            <div class="leftSection">
+                Hi, this is <span class="purple">Sainath</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                
+                <div class="vertical">
+                    <img class="image-top"src="DEV.png" alt="">
+                    <div class="vertical-title">Web Developer</div>
+                    <div class="vertical-desc">
+                        Gaining practical experience by building a personal portfolio site using HTML, CSS, and JavaScript.
+                        Engaged in ongoing self-study through tutorials and online courses to expand skillset and stay updated with industry best practices.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="DSA.png" alt="">
+                    <div class="vertical-title">Data Structures & Algorithms</div>
+                    <div class="vertical-desc">
+                        Mastered core data structures and classical algorithms, with practical experience through personal and academic projects.
+                        Practiced problem solving on leetcode, hackerrank.
+                        Currently learning advanced topics: greedy,graphs.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="DBMS.png" alt="">
+                    <div class="vertical-title">Database Management</div>
+                    <div class="vertical-desc">
+                        Skilled in SQL programming, relational schema design, query optimization, and data modeling using MySQL.
+                        Experienced with ER diagrams, database normalization, and designing secure, scalable systems for real-world applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="Git.png" alt="">
+                    <div class="vertical-title">Git & Github</div>
+                    <div class="vertical-desc">
+                        Developed multiple small projects addressing data structures and algorithms.
+                        All code is publicly available on GitHub for review and collaboration.
+                        Projects feature clear commit histories and comprehensive READMEs
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sainath Reddy Kummetha</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        <a href="https://sainathreddykummetha@gmail.com">Gmail</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>
+                       <a href="https://www.linkedin.com/in/sainathreddy-kummetha-88810a284/">LinkedIn</a> 
+                    </li>
+                    <li>
+                        <a href="https://github.com/sainath240413">github</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            <p>© 2025 Sainath Reddy Kummetha. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Problem Solver', 'Tech Enthusiast', 'Learner'],
+            loop: true,
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
